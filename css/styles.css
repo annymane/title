@@ -1,0 +1,29 @@
+.text{
+    color: rgb(242, 234, 241);
+    font-family: 'Press Start 2P', cursive;
+    animation: neonEffect 5s infinite;
+    text-align: center;
+    
+
+}
+
+@keyframes neonEffect{
+    0%, 35%, 45%, 65%, 100% {
+        text-shadow: 
+        white 0 0 12px,
+        #0eafdc 0 0 24px,
+        #92e9bb 0 0 36px;
+    }
+
+    40%, 60% {
+        text-shadow: none;
+    }
+}
+
+.container{
+    padding: 10rem;
+}
+
+body{
+    background-color: black;
+}
